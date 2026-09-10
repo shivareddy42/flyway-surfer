@@ -1,4 +1,4 @@
-# Flyway Surfer 🪰
+# Flyway Surfer 
 
 Tiny fly. Giant swatter. Three lanes to survive.
 
