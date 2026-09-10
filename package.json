@@ -1,2 +1,25 @@
-{"name":"flyway-surfer","version":"1.1.0","private":true,"type":"module","scripts":{"start":"node server.mjs","test":"node tests/run.mjs"}}
+{
+  "name": "flyway-surfer",
+  "version": "1.1.0",
+  "description": "A 3D fly-and-swatter endless runner with an experimental MaleCNS circuit pilot.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "Shiva Reddy",
+  "homepage": "https://flyway-surfer.lightningshiva1.chatgpt.site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivareddy42/flyway-surfer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shivareddy42/flyway-surfer/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node tests/run.mjs"
+  }
+}
 
