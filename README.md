@@ -1,6 +1,6 @@
 # Flyway Surfer
 
-A 3D kitchen-counter endless runner: a fly is the runner and a giant pink flyswatter is the pursuer. Watch the experimental circuit pilot, or take over using arrows/WASD, Space, swipes, or touch controls.
+A 3D rail-yard endless runner: a fly is the runner and a giant pink flyswatter is the pursuer. Watch the experimental circuit pilot, or take over using arrows/WASD, Space, swipes, or touch controls.
 
 ## Run locally
 
@@ -22,7 +22,8 @@ The sidebar displays the running model's dimensionless activity. The node layout
 
 - `dist/core.js`: deterministic obstacle generation, controls, collision, sugar, pursuit, and run state.
 - `dist/pilot.js`: simplified signed recurrent rate model, sensor encoding, action decoder.
-- `dist/scene.js`: Three.js kitchen, fly, swatter, obstacles, animation, and effects.
+- `dist/scene.js`: Three.js fly, swatter, camera, animation, and effects.
+- `dist/railway.js`: tracks, city, stations, trains, and barriers.
 - `dist/main.js`: UI, lifecycle, input, sound, and live circuit display.
 - `dist/style.css`: responsive game presentation.
 - `tests/core.test.mjs`: meaningful gameplay and circuit checks.
